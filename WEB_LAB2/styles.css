@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #3a6ea5;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;    
+}
+
+header h1 {
+    font-size: 2.5rem; 
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.75rem; 
+    margin: 0.5rem 0; 
+    color: #fff; 
+}
+
+.sidebar {
+    width: 250px; /* Set width of the sidebar */
+    background-color: #c5b0f9;
+    padding: 1rem; 
+    box-shadow: 2px 0 5px rgba(40, 7, 7, 0.1); 
+}
+
+nav {
+    margin-top: 1rem; /* Space above the navigation */
+}
+
+nav a {
+    display: block; /* Makes each link a block for vertical stacking */
+    color: #181818; /* Change link color as desired */
+    margin-bottom: 0.5rem; /* Space between links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 0.5rem; /* Padding for better click area */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+    background-color: #e3f2fd; /* Optional: change background color on hover */
+}
+
+.content {
+    flex-grow: 1; /* Allows content area to fill the remaining space */
+    padding: 1rem; /* Padding around content */
+}
+
+.centered-table {
+    margin: 20px auto; /* Centers the table and adds space above and below */
+    border-collapse: collapse; 
+}
+
+section {
+    padding: 2rem;
+}
+
+h2 {
+    color: #3a6ea5;
+}
+
+
+
+.hobby {
+    display: flex; /* Align image and text in a row */
+    align-items: center; /* Center vertically */
+    margin: 1rem 0; /* Space between hobbies */
+}
+
+.hobby-image {
+    margin-right: 1rem; /* Space between image and text */
+}
+
+.hobby-description {
+    text-align: left; /* Align text to the left */
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3a6ea5;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
