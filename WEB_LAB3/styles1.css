@@ -1,0 +1,31 @@
+.image-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to create multiple rows */
+    gap: 10px; /* Space between images */
+    justify-content: center; /* Center content in the container */
+    padding: 20px;
+}
+
+.image-item {
+    flex: 1 1 calc(50%); /* Set width to 50% minus the gap */
+    max-width: 300px; /* Limit the max-width if desired */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-item img {
+    width: 100%; /* Make image responsive within its container */
+    height: 100%;
+    transition: transform 0.2s ease; 
+}
+
+.image-item img:hover {
+    transform: scale(1.05); 
+}
+
+
+
